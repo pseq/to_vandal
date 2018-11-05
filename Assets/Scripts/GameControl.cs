@@ -26,7 +26,9 @@ public class GameControl : MonoBehaviour {
 
         // Останавливаем производство всех юнитов
         UnitProducingSwitcher();
-        StartCoroutine(Countdown());
+        //обратный отсчет при начале игры отключен
+        UnitProducingSwitcher();
+        //StartCoroutine(Countdown());
     }
 
     // Старт/стоп производства юнитов на респаунах и казармах
